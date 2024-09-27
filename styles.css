@@ -26,3 +26,56 @@ body {
     color: #e5e7eb;
 }
 
+.top{
+    outline: solid 2px red;
+    background: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top *{
+    text-align: center;
+    outline: solid 2px red;
+    
+}
+
+.top .left{
+    outline: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .left strong{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top .left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top .left button{
+    font-size: 12px;
+    color: #F9FAF8;
+    padding: 20px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+}
+
+.top .right{
+    outline: solid 2px red;
+    padding: 50px;
+    display: flex;
+    background: grey;
+    flex-direction: column;
+}
