@@ -35,11 +35,11 @@ body {
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 .top *{
     text-align: left;
-    
 }
 
 .top .left{
@@ -55,11 +55,15 @@ body {
 .top .left strong{
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .top .left p{
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .top .left button{
@@ -86,5 +90,50 @@ body {
 }
 
 .top .right div{
+    text-align: center;
+}
+
+.middle{
+    outline: solid red 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle .rand-info{
+    margin: 50px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.middle .boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    
+}
+
+.middle .boxes *{
+    flex: 1;
+    margin: 50px;
+    height: 150px;
+    margin-bottom: 0px;
+    width: 150px;
+    border-radius: 10px;
+    outline: solid #3882f6 3px;
+}
+
+.middle .box-text{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.middle .box-text *{
+    margin: 55px;
+    margin-top: 20px;
     text-align: center;
 }
