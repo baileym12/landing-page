@@ -1,0 +1,9 @@
+* {
+    font: Roboto;
+}
+
+.header {
+    color: white;
+    background-color: #1F2937;
+    flex: 1;
+}
