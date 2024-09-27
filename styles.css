@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header{
@@ -18,16 +19,17 @@ body {
 .header .text{
     font-size: 24px;
     color: #F9FAF8;
+    width: 50%;
 }
 
 .header .links{
     font-size: 18px;
-    margin: 10px;
     color: #e5e7eb;
+    width: 50%;
+    margin: 10px;
 }
 
 .top{
-    outline: solid 2px red;
     background: #1F2937;
     display: flex;
     color: #F9FAF8;
@@ -36,19 +38,18 @@ body {
 }
 
 .top *{
-    text-align: center;
-    outline: solid 2px red;
+    text-align: left;
     
 }
 
 .top .left{
-    outline: solid 2px red;
     display: flex;
     flex-direction: column;
-    margin: 50px;
     padding: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    width: 50%;
+    margin-left: 12.5%;
 }
 
 .top .left strong{
@@ -62,20 +63,28 @@ body {
 }
 
 .top .left button{
-    font-size: 12px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    font-size: 18px;
     color: #F9FAF8;
-    padding: 20px;
     background-color: #3882f6;
     color: #F9FAF8;
     text-align: center;
-    width: 50px;
-    height: 20px;
+    width: 120px;
+    height: 40px;
 }
 
 .top .right{
-    outline: solid 2px red;
-    padding: 50px;
+    width: 50%;
     display: flex;
-    background: grey;
+    background: darkgray;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12.5%;
+    height: 200px;
+}
+
+.top .right div{
+    text-align: center;
 }
